@@ -21,15 +21,22 @@ export default function LayoutNavigation({
     >
       <div className="flex-1 flex flex-col bg-black text-white w-2/3 h-full md:flex-row md:bg-transparent md:text-black">
         <div className="flex flex-col md:hidden">
-          <button className="self-end p-4" onClick={() => setShow(false)}>
+          <button
+            className="self-end p-4"
+            onClick={() => setShow(false)}
+          >
             <MdClose className="text-xl" />
           </button>
         </div>
         <div className="flex flex-col  md:flex-1 md:flex-row md:items-center md:justify-center md:space-x-4">
           {socials.map((social, index) => (
-            <p key={index} className="p-4">
+            <Link
+              href={social.href}
+              key={index}
+              className="p-4"
+            >
               {social.name}
-            </p>
+            </Link>
           ))}
         </div>
         <Link

@@ -9,7 +9,10 @@ export default function Navigation() {
 
   return (
     <>
-      <LayoutNavigation show={show} setShow={setShow} />
+      <LayoutNavigation
+        show={show}
+        setShow={setShow}
+      />
       <div className="md:hidden">
         <button onClick={() => setShow(!show)}>
           <MdMenu />

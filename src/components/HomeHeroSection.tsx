@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeHeroSection() {
   return (
@@ -12,7 +13,12 @@ export default function HomeHeroSection() {
           <p className="text-sm text-black/50">
             0xf32b4277dE046257015348132Cb63b65ec7eA208
           </p>
-          <button className="self-start btn btn-primary">Buy Now</button>
+          <Link
+            href="https://dexscreener.com/ethereum/0x22dA3dCbCEC36947De7C7aD3d3CA138E6d37f27d"
+            className="self-start btn btn-primary"
+          >
+            Buy Now
+          </Link>
         </div>
       </div>
       <div>

@@ -11,8 +11,8 @@ export default function HomeTokenomic() {
         </p>
       </div>
       <div className="flex-1 shrink-0 flex flex-col space-y-2">
-        <h1 className="text-4xl font-extrabold">Liquidity</h1>
-        <p className={clsx(inter.className, "text-white/90")}>100% Locked</p>
+        <h1 className="text-4xl font-extrabold">LP Burnt</h1>
+        <p className={clsx(inter.className, "text-white/90")}>100% Burnt</p>
       </div>
       <div className="flex-1 shrink-0 flex flex-col space-y-2">
         <h1 className="text-4xl font-extrabold">Tax</h1>

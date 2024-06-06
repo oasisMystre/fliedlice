@@ -1,4 +1,3 @@
-import HomeFaq from "@/components/HomeFaq";
 import HomeHeroSection from "@/components/HomeHeroSection";
 import HomeTokenomic from "@/components/HomeTokenomic";
 
