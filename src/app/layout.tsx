@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(chinese.className, "fixed inset-0 flex flex-col")}>
-        <div className="flex-1 flex flex-col space-y-16 bg-gradient-to-b from-primary via-primary bg-no-repeat">
+        <div className="flex-1 flex flex-col space-y-16 bg-gradient-to-b from-primary via-primary bg-no-repeat overflow-y-scroll">
           <LayoutHeader />
           {children}
           <LayoutFooter />

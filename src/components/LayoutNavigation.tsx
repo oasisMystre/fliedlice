@@ -1,5 +1,6 @@
 import { socials } from "@/config/socials";
 import clsx from "clsx";
+import Link from "next/link";
 import { MdClose } from "react-icons/md";
 
 type LayoutNavigationProps = {
@@ -31,9 +32,12 @@ export default function LayoutNavigation({
             </p>
           ))}
         </div>
-        <button className="self-start btn btn-primary md:self-auto">
+        <Link
+          href="https://dexscreener.com/ethereum/0x22dA3dCbCEC36947De7C7aD3d3CA138E6d37f27d"
+          className="self-start btn btn-primary md:self-auto"
+        >
           Buy Now
-        </button>
+        </Link>
       </div>
     </nav>
   );
