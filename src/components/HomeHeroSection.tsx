@@ -11,8 +11,8 @@ export default function HomeHeroSection() {
         </div>
         <div className="flex flex-col space-y-2">
           <p className="text-sm text-black/50">
-            0xf32b4277dE046257015348132Cb63b65ec7eA208
-          </p>
+            <p>CA</p>
+          0x22dA3dCbCEC36947De7C7aD3d3CA138E6d37f27d          </p>
           <Link
             href="https://dexscreener.com/ethereum/0x22dA3dCbCEC36947De7C7aD3d3CA138E6d37f27d"
             className="self-start btn btn-primary"
